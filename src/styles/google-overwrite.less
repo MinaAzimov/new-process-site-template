@@ -962,6 +962,48 @@ footer .footer-grid {
   padding: 5px !important;
 }
 
+.nav_selected {
+  background-color: #80BFBA!important;
+}
+
+
+
+#side-nav #logo.logo--bottom {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border: none;
+  text-align: center;
+  opacity:.5;
+}
+#side-nav #logo.logo--bottom img {
+  margin: 0;
+}
+#side-nav #logo.logo--bottom span {
+  color: #69594C !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#side-nav #logo.logo--bottom:hover {
+  animation: bounce-animation 0.6s ease-in-out 1;
+  transform: none;
+}
+@keyframes bounce-animation {
+  45% {
+    transform: scaleY(0.75);
+  }
+  55% {
+    transform: scaleY(0.75);
+  }
+  75% {
+    transform: scaleY(1.1) translateY(-10px);
+  }
+}
+
 
 
 
