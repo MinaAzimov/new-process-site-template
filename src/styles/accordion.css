@@ -9,6 +9,7 @@
 .st-accordion .accordion-item li {
   margin-bottom: 12px !important;
   margin-left: 30px;
+  list-style-type: inherit!important;
 }
 .st-accordion .accordion-item li p {
   margin-bottom: 0px;

@@ -800,9 +800,6 @@ header.qp-ui-peekaboo.qp-ui-peekaboo-active {
 .lower-roman {
   list-style-type: lower-roman;
 }
-.nav_selected {
-  background-color: #80BFBA!important;
-}
 #side-nav #logo.logo--bottom {
   justify-content: center;
   align-items: center;
