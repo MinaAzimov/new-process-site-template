@@ -1,5 +1,16 @@
 @import 'variables.less';
 
+@font-face {
+  font-family: 'interviewfont';
+  src: url('../fonts/font-icon/interviewfont.eot');
+  src: url('../fonts/font-icon/interviewfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/font-icon/interviewfont.woff') format('woff'),
+       url('../fonts/font-icon/interviewfont.ttf') format('truetype'),
+       url('../fonts/font-icon/interviewfont.svg#interviewfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #grid-cont {
   position: relative;
   background-color: transparent!important;
@@ -884,7 +895,7 @@ footer .footer-grid {
   .article-title.qp-ui {
    color: @color-accent !important;
  }
-}
+} 
 
 #side-nav .single {
   padding: 10px 24px 10px 22px;
@@ -960,6 +971,76 @@ footer .footer-grid {
 
 .padding-body {
   padding: 5px !important;
+}
+
+.media {
+  margin: 25px 0;
+}
+
+.icon-box {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background-color: #cccccc;
+
+  -webkit-user-select: none; /* Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
+
+.image-holder {
+  width: 160px;
+  height: 160px;
+  background-color: @color-accent;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 70px 0;
+}
+
+.icon-font {
+  font-family: 'interviewfont';
+  font-size: 110px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.header-icon {
+  font-size: 35px;
+  color: @color-accent;
+  margin-right: 15px;
+}
+
+.icon-box img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list-alpha {
+  list-style-type: upper-alpha;
+}
+
+.lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.decimal {
+  list-style-type: decimal;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.lower-roman {
+  list-style-type: lower-roman;
 }
 
 .nav_selected {
