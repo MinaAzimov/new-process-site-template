@@ -12,8 +12,6 @@ You may now visit `http://localhost:3000` in your browser to view the site.
 
 The server also runs a file watcher that will automatically rebuild content when files are changed.
 
-Note: for committing you will need to include the public/* files that are generated during the make process.
-
 ## Font-Icon Documentation
 To manipulate font-icon login at `https://glyphter.com/` and select project `interviewfont`. 
 After you made changes, save the project and download. 
